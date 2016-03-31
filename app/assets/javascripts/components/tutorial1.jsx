@@ -9,5 +9,5 @@ var CommentBox = React.createClass({
 })
 React.render(
     <CommentBox />,
-    document.getElementById("application")
+    document.getElementById("application1")
 );
