@@ -89,7 +89,6 @@ var CommentForm = React.createClass({
         this.props.onCommentSubmit({author: author, text: text});
         ReactDOM.findDOMNode(this.refs.author).value = '';
         ReactDOM.findDOMNode(this.refs.text).value = '';
-        return;
     },
     render: function() {
         return (
