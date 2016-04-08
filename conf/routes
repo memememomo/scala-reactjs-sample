@@ -5,6 +5,9 @@
 # Home page
 GET     /                           controllers.Application.index
 GET     /tutorial4                  controllers.Application.tutorial4
+GET     /place                      controllers.JsonTest.index
+GET     /places                     controllers.JsonTest.places
+POST    /place/create               controllers.JsonTest.savePlace
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
